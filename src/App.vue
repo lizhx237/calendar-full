@@ -1,11 +1,12 @@
 <script setup>
-import cld from './components/cld.vue'
+// import cld from './components/cld.vue'
 
 </script>
 
 <template>
   <div>
-    <cld></cld>
+    <router-view></router-view>
+    <!-- <cld></cld> -->
   </div>
 </template>
 

@@ -6,7 +6,7 @@ const createWindow = () => {
     height: 600,
   });
 
-  win.loadURL("http://localhost:5173");
+  win.loadFile("./dist/index.html"); // TODO: 将开发和部署区分开来
 };
 
 app.whenReady().then(() => {

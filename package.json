@@ -8,17 +8,20 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "start": "electron ."
+    "start": "electron .",
+    "electron-build": "vite build & electron-builder build --config electron-builder.json"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.7",
-    "electron": "^36.2.1",
     "tailwindcss": "^4.1.7",
-    "vue": "^3.5.13"
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.1"
   },
   "author": "",
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.2.3",
+    "electron": "^36.2.1",
+    "electron-builder": "^26.0.12",
     "electron-win-state": "^1.1.22",
     "nodemon": "^3.1.10",
     "vite": "^6.3.5"

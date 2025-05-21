@@ -1,0 +1,7 @@
+{
+  "files": ["main.js", "./dist"],
+  "productName": "SimpleCalendar",
+  "directories": {
+    "output": "build/"
+  }
+}
